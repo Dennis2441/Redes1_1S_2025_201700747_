@@ -41,15 +41,15 @@
 ![VPC Diseño Gráfico y Publicidad](./capturas/dise.png)  
 ![VPC Renderizado y Modelado 3D](./capturas/remo.png.png)  
 ![VPC Recepción y Administración](./capturas/recep.png)  
-![VPC Alta Dirección](./alta.png)  
+![VPC Alta Dirección](./capturas/alta.png)  
 
 ## ● Capturas de pantalla de pings entre hosts (Comunicación entre áreas, solo 5 en total).  
 
 ![Desde LAPTOP9 (Diseño Gráfico y Publicidad) a PC3 (Alta Dirección)](./capturas/Desde%20LAPTOP9%20(Diseño%20Gráfico%20y%20Publicidad)%20a%20PC3%20(Alta%20Dirección).png)  
 ![Desde PC1 (Arquitectura y Urbanismo) a LAPTOP9 (Diseño Gráfico y Publicidad)](./capturas/Desde%20PC1%20(Arquitectura%20y%20Urbanismo)%20a%20LAPTOP9%20(Diseño%20Gráfico%20y%20Publicidad).png)  
-![Desde PC3 (Alta Dirección) a PC1 (Arquitectura y Urbanismo)](./Desde%20PC3%20(Alta%20Dirección)%20a%20PC1%20(Arquitectura%20y%20Urbanismo).png)  
+![Desde PC3 (Alta Dirección) a PC1 (Arquitectura y Urbanismo)](./capturas/Desde%20PC3%20(Alta%20Dirección)%20a%20PC1%20(Arquitectura%20y%20Urbanismo).png)  
 ![Desde LAPTOP0 (Recepción y Administración) a LAPTOP2 (Renderizado y Modelado 3D)](./capturas/Desde%20LAPTOP0%20(Recepción%20y%20Administración)%20a%20LAPTOP2%20(Renderizado%20y%20Modelado%203D).png)  
-![Desde LAPTOP6 (Renderizado y Modelado 3D) a PC16 (Recepción y Administración)](./Desde%20LAPTOP6%20(Renderizado%20y%20Modelado%203D)%20a%20PC16%20(Recepción%20y%20Administración).png)  
+![Desde LAPTOP6 (Renderizado y Modelado 3D) a PC16 (Recepción y Administración)](./capturas/Desde%20LAPTOP6%20(Renderizado%20y%20Modelado%203D)%20a%20PC16%20(Recepción%20y%20Administración).png)  
 
 ## ● Captura de pantalla de la demostración de la captura de un paquete ARP y un ICMP en el modo Simulación.  
 
