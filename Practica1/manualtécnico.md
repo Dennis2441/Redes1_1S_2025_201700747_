@@ -58,7 +58,10 @@
 
 ## ● Los comandos utilizados para configurar los switches.  
 
-```bash  
+```bash
+--------------------------------------------------------------------------------------------
+COnfirguracion para switch 1
+--------------------------------------------------------------------------------------------
 enable  
 configure terminal  
 ip domain-lookup  
@@ -71,7 +74,10 @@ login
 end  
 exit  
 write system  
-banner motd #Hola listo para calificacion#  # mensaje de bienvenida  
+banner motd #Hola listo para calificacion#  # mensaje de bienvenida
+--------------------------------------------------------------------------------------------
+COnfirguracion para switch 2
+--------------------------------------------------------------------------------------------
 enable  
 configure terminal  
 ip domain-lookup  
