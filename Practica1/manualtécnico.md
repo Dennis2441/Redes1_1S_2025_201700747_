@@ -39,7 +39,7 @@
 
 ![VPC Arquitectura y Urbanismo](./capturas/arqui.png)  
 ![VPC Diseño Gráfico y Publicidad](./capturas/dise.png)  
-![VPC Renderizado y Modelado 3D](./capturas/remo.png.png)  
+![VPC Renderizado y Modelado 3D](./capturas/remo.png)  
 ![VPC Recepción y Administración](./capturas/recep.png)  
 ![VPC Alta Dirección](./capturas/alta.png)  
 
