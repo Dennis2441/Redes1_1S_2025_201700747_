@@ -12,4 +12,5 @@
 | **UPS** (Sistemas de respaldo)           |      2      |           300            |          600       |  
 |                                          |             |                           |                     |  
 | **Total Aproximado**                     |     --      |            --            |   **36,750**       |  
+| **Total Quetzales**                     |     --      |            --            |   **2,400,000 **       |
 ---
