@@ -8,6 +8,115 @@ Se utilizaron máscaras de subred que permiten un uso eficiente del espectro de 
 
 ---  
 
+## SUBNETING
+
+### **CUNDECH**
+IP = 192.168.0.0/24
+| Resumen |        |
+|---------|--------|
+| ID RED | 192.168.0.0|
+| Mascara de Subred | 255.255.255.0|
+| Wildcar | 0.0.0.255|
+| Brodcast | 192.168.0.255|
+| Primer Host | 192.168.0.1|
+| Ultimo Host | 192.168.0.254|
+| Numero de Host | 256|
+| Host Utilizables | 254|
+
+#### VLSM
+|VLAN|Id Red|Mascara|Wildcard|Primer|Ultimo|Broadcast|Host Utilizables|Host Utilizado|Host desperdiciado|
+|:--- | :---:| :---: | :---:  |:---: | :---:|  :---:  | :---:          |:---: | :---:|
+|Biblioteca|192.168.0.0|255.255.255.128|0.0.0.127|192.168.0.1|192.168.0.126|192.168.0.127|126|100|26|
+|Estudiantes|192.168.0.128|255.255.255.192|0.0.0.63|192.168.0.129|192.168.0.190|192.168.0.191|62|50|12|
+|Docentes|192.168.0.192|255.255.255.224|0.0.0.31|192.168.0.193|192.168.0.222|192.168.0.223|30|20|10|
+|Seguridad|192.168.0.224|255.255.255.248|0.0.0.7|192.168.0.225|192.168.0.230|192.168.0.231|6|5|1|
+
+### **CUNOROC**
+IP = 192.148.0.0/24
+| Resumen |        |
+|---------|--------|
+| ID RED | 192.148.0.0|
+| Mascara de Subred | 255.255.255.0|
+| Wildcar | 0.0.0.255|
+| Brodcast | 192.148.0.255|
+| Primer Host | 192.148.0.1|
+| Ultimo Host | 192.148.0.254|
+| Numero de Host | 256|
+| Host Utilizables | 254|
+
+#### VLSM
+|VLAN|Id Red|Mascara|Wildcard|Primer|Ultimo|Broadcast|Host Utilizables|Host Utilizado|Host desperdiciado|
+|:--- | :---:| :---: | :---:  |:---: | :---:|  :---:  | :---:          |:---: | :---:|
+|Biblioteca|192.148.0.0|255.255.255.128|0.0.0.127|192.148.0.1|192.148.0.126|192.148.0.127|126|75|51|
+|Estudiantes|192.148.0.128|255.255.255.192|0.0.0.63|192.148.0.129|192.148.0.190|192.148.0.191|62|45|17|
+|Docentes|192.148.0.192|255.255.255.224|0.0.0.31|192.148.0.193|192.148.0.222|192.148.0.223|30|25|5|
+|Seguridad|192.148.0.224|255.255.255.240|0.0.0.15|192.148.0.225|192.148.0.238|192.148.0.239|14|10|4|
+
+### **CUNOC**
+IP = 172.16.0.0/24
+| Resumen |        |
+|---------|--------|
+| ID RED | 172.16.0.0|
+| Mascara de Subred | 255.255.255.0|
+| Wildcar | 0.0.0.255|
+| Brodcast | 172.16.0.255|
+| Primer Host | 172.16.0.1|
+| Ultimo Host | 172.16.0.254|
+| Numero de Host | 256|
+| Host Utilizables | 254|
+
+#### VLSM
+|VLAN|Id Red|Mascara|Wildcard|Primer|Ultimo|Broadcast|Host Utilizables|Host Utilizado|Host desperdiciado|
+|:--- | :---:| :---: | :---:  |:---: | :---:|  :---:  | :---:          |:---: | :---:|
+|Estudiantes|172.16.0.0|255.255.255.192|0.0.0.63|172.16.0.1|172.16.0.62|172.16.0.63|62|60|2|
+|Docentes|172.16.0.128|255.255.255.192|0.0.0.63|172.16.0.129|172.16.0.190|172.16.0.191|62|35|27|
+|Seguridad|172.16.0.192|255.255.255.248|0.0.0.7|172.16.0.193|172.16.0.198|172.16.0.199|6|5|1|
+|Biblioteca|172.16.0.64|255.255.255.192|0.0.0.63|172.16.0.65|172.16.0.126|172.16.0.127|62|50|12|
+
+### **CUM**
+IP = 192.158.16.0/24
+| Resumen |        |
+|---------|--------|
+| ID RED | 192.158.16.0|
+| Mascara de Subred | 255.255.255.0|
+| Wildcar | 0.0.0.255|
+| Brodcast | 192.158.16.255|
+| Primer Host | 192.158.16.1|
+| Ultimo Host | 192.158.16.254|
+| Numero de Host | 256|
+| Host Utilizables | 254|
+
+#### VLSM
+|VLAN|Id Red|Mascara|Wildcard|Primer|Ultimo|Broadcast|Host Utilizables|Host Utilizado|Host desperdiciado|
+|:--- | :---:| :---: | :---:  |:---: | :---:|  :---:  | :---:          |:---: | :---:|
+|Estudiantes|192.158.0.128|255.255.255.192|0.0.0.63|192.158.0.129|192.158.0.190|192.158.0.191|62|55|7|
+|Docentes|192.158.0.192|255.255.255.224|0.0.0.31|192.158.0.193|192.158.0.222|192.158.0.223|30|20|10|
+|Seguridad|192.158.0.224|255.255.255.240|0.0.0.15|192.158.0.225|192.158.0.230|192.158.0.231|6|5|1|
+|Biblioteca|192.158.0.0|255.255.255.128|0.0.0.127|192.158.0.1|192.158.0.126|192.158.0.127|126|110|16|
+
+### **CENTRAL**
+IP = 192.120.0.0/24
+| Resumen |        |
+|---------|--------|
+| ID RED | 192.120.0.0|
+| Mascara de Subred | 255.255.255.0|
+| Wildcar | 0.0.0.255|
+| Brodcast | 192.120.0.255|
+| Primer Host | 192.120.0.1|
+| Ultimo Host | 192.120.0.254|
+| Numero de Host | 256|
+| Host Utilizables | 254|
+
+#### VLSM
+|VLAN|Id Red|Mascara|Wildcard|Primer|Ultimo|Broadcast|Host Utilizables|Host Utilizado|Host desperdiciado|
+|:--- | :---:| :---: | :---:  |:---: | :---:|  :---:  | :---:          |:---: | :---:|
+|Server0|192.120.0.0|255.255.255.192|0.0.0.63|192.120.0.1|192.120.0.62|192.120.0.63|62|50|12|
+|Server1|192.121.0.0|255.255.255.192|0.0.0.63|192.121.0.1|192.121.0.62|192.121.0.63|62|30|32|
+|Server2|192.122.0.0|255.255.255.240|0.0.0.15|192.122.0.1|192.122.0.6|192.122.0.7|6|5|1|
+
+---
+
+
 ## Espacio para Capturas de Pantalla  
 _Aquí puedes insertar imágenes de la topología de red o diagramas relevantes._  
 
