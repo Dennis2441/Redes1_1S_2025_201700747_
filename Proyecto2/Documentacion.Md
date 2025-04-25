@@ -117,11 +117,27 @@ IP = 192.120.0.0/24
 ---
 
 
-## Espacio para Capturas de Pantalla  
-_Aquí puedes insertar imágenes de la topología de red o diagramas relevantes._  
-
-![Topología de la Red](ruta/a/tu/imagen.png)  
-![Configuración de Dispositivos](ruta/a/tu/imagen2.png)  
+## TOPOLOGIA
+### Topologia Completa
+![completa](capturas/completo.png)
+### CUNDECH
+![cundech](capturas/cundech.png)
+### CUNOROC
+![cunoroc](capturas/cunoroc.png)
+### CUNOC
+![cunoc](capturas/cunoc.png)
+### CENTRAL
+![Central](capturas/Central.png)
+### CUM
+![cum](capturas/cum.png)
+### CORE/BACKBONE
+![Core](capturas/completo.png)
+#### Protocolo RIP
+![Ripo](capturas/rip.png)
+#### Protocolo OSPF
+![OSPF](capturas/os.png)
+#### Protocolo EIGRP
+![EIGRP](capturas/bg.png)
 
 ## Configuración de Dispositivos
 
